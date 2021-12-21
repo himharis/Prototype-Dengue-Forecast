@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      font-size: medium;
+      font-family: 'Times New Roman';
+    }
+    </style>
+</head>
+<body>
+    <h1><b>Hello, {{name}}! </b></h1>
+    <h3><b>todays technology headlines are: </b></h3>
+
+    <table align="left">
+        <tr>
+            <th><b>Tittle</b></th>
+            <th><b>Thumbnails</b></th>
+        </tr>
+        {% for k, v in data.items()%}
+        <tr>
+            <td width="250px" align="center"><a href="/{{v[1]}}">{{v[0]}}</a></td>
+            <td width="250px" align="center"><img src="v[2]" alt="alternatetext"></td>
+        </tr>
+        {% endfor %}
+
+
+
+    </table>
+</body>
+</html>
