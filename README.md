@@ -6,7 +6,7 @@ Program ini dikembangkan menggunakan aplikasi [R](https://cran.r-project.org/) d
 ## Sumber Data:
 - [Data keseluruhan cuaca BMKG](https://dataonline.bmkg.go.id/) dan dipilih per stasiun, lalu data diekstrak ke excel per bulan dari Januari 2018 sampai Desember 2022.
 - Data Kasus Dengue
-- Data Ovitrap Index
+- Data Larva Free Index
 
 ## Trained Model
 - Regression Tree
