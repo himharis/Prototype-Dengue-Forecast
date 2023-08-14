@@ -6,4 +6,4 @@ Program ini dikembangkan menggunakan aplikasi [R](https://cran.r-project.org/) d
 Untuk mengakses lama website prediksi, silahkan klik [disini](https://himhariss.shinyapps.io/PrediksiDengue/)
 
 ### Tampilan website sebagaimana berikut:
-
+![Screenshot web](https://github.com/himharis/himharis_web/blob/main/PrediksiDengue/www/Prototype%20Prediksi%20Dengue.png)
