@@ -1,0 +1,12 @@
+name: PrediksiDengue
+title: PrediksiDengue
+username: himhariss
+account: himhariss
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9598175
+bundleId: 7563207
+url: https://himhariss.shinyapps.io/PrediksiDengue/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
