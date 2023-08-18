@@ -13,8 +13,8 @@ shinyUI(fluidPage(
     tags$link(rel = "icon", type = "image/png", sizes = "16x16", href = "/favicon-16x16.png")
   ),
   headerPanel(
-    list("Prediksi Kasus Dengue"),
-    windowTitle="Prediksi Kasus Dengue"
+    list("Dengue Forecast"),
+    windowTitle="Dengue Forecast"
   ),
   p(em("oleh Kemenkes P2PM Arbo, Malaria Consortium, PHLC")),
   sidebarLayout(
@@ -32,16 +32,16 @@ shinyUI(fluidPage(
       # #             value = c(0,10)
       # #             )
     ),
-    mainPanel(img(src='logo.png',  height="40%", width="40%", align = "right"), sliderInput("Tavg", "Suhu:",
-                  min = 20, max = 70, value = 20),
+    mainPanel(img(src='logo.png',  height="40%", width="40%", align = "right"), sliderInput("Tavg", "Suhu(°C):",
+                  min = 20, max = 40, value = 20, step = 0.5),
       sliderInput("RH_avg", "Kelembaban Rata-Rata:",
-                  min = 1, max = 100, value = 1),
+                  min = 1, max = 100, value = 1, step = 0.5),
       sliderInput("RR", "Curah Hujan:",
-                  min = 1, max = 20, value = 1),
+                  min = 1, max = 20, value = 1, step = 0.5),
       sliderInput("ss", "Penyinaran Matahari:",
-                  min = 1, max = 10, value = 1),
+                  min = 1, max = 10, value = 1, step = 0.5),
       sliderInput("ff_avg", "Kecepatan Angin Rata-Rata:",
-                  min = 1, max = 10, value = 1),
+                  min = 1, max = 10, value = 1, step = 0.5),
       selectInput("ABJ", label = "ABJ:",
                   choices = list("Berisiko", "Tidak Berisiko")),
       #sliderInput("kasus", "Kasus:",
