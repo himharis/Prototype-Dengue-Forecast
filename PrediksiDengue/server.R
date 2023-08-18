@@ -5,7 +5,7 @@ library(shiny)
 
 shinyServer(function(input, output){
   prediction <- reactive({
-    pred <- predict(readRDS("dengue_svr.rds"), newdata = data.frame(
+    pred <- predict(readRDS("dengue.rds"), newdata = data.frame(
       Tavg = c(as.numeric(input$Tavg)),
       RH_avg = c(as.numeric(input$RH_avg)),
       RR = c(as.numeric(input$RR)),
