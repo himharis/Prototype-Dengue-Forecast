@@ -22,4 +22,4 @@ Model dipilih berdasarkan RMSE dan MAE. Sehingga model yang diaplikasin pada pro
 Untuk mengakses lama website prediksi, silahkan klik [disini](https://himhariss.shinyapps.io/PrediksiDengue/)
 
 ### Tampilan website sebagaimana berikut:
-![Screenshot web](https://github.com/himharis/himharis_web/blob/main/PrediksiDengue/www/Prototype%20Prediksi%20Dengue.png)
+![Screenshot web](https://github.com/himharis/Prototype-Dengue-Forecast/blob/main/PrediksiDengue/www/DF.png)
